@@ -57,7 +57,7 @@ def test_get_word():
     assert get_word("B", test_list) == "banana"
 
 def test_fix_agreement():
-    pass
+    test_sentence = ["he", "often","talk", "about", "the", "beautiful","house", "along", "the", "quiet", "river" ]
 
 def test_build_sentence():
     pass

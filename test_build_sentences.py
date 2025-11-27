@@ -58,6 +58,8 @@ def test_get_word():
 
 def test_fix_agreement():
     test_sentence = ["he", "often","talk", "about", "the", "beautiful","house", "along", "the", "quiet", "river" ]
+    fix_agreement(test_sentence)
+    assert test_sentence[2] == "talks"
 
 def test_build_sentence():
     pass
